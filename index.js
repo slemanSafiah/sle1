@@ -42,7 +42,7 @@ function Sleman({ option, error }) {
   // link to asp endpoint
   const config = {
     method: "POST",
-    url: "https://projectfifthyear.herokuapp.com/Errors", // add the option to make the api reliable
+    url: "logger api",
     data: {
       column: parseInt(col),
       row: parseInt(row),
